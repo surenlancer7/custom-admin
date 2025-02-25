@@ -18,9 +18,6 @@
     "preinstall": "npm i npm-force-resolutions@0.0.10 && npx npm-force-resolutions"
   },
   "private": true,
-  "publishConfig": {
-    "registry": "https://nexus.tagitmobile.com/repository/product-npm-snapshot/"
-  },
   "dependencies": {
     "@angular/animations": "19.0.5",
     "@angular/cdk": "19.0.4",
@@ -42,7 +39,7 @@
     "@ngx-translate/core": "16.0.4",
     "@ngx-translate/http-loader": "16.0.1",
     "@swimlane/ngx-charts": "21.1.0",
-    "@tagit/mx-admin-library": "https://nexus.tagitmobile.com/repository/npm-releases/@tagit/mx-admin-library/-/mx-admin-library-7.5.3.tgz",
+    "@tagit/mx-admin-library": "nexus_repo_url_here",
     "@webcomponents/webcomponentsjs": "2.8.0",
     "bpmn-js": "18.1.1",
     "document-register-element": "1.14.10",
